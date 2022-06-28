@@ -150,26 +150,54 @@
 
 #################################  Task 6 ##########################################
 
+# class Calculator:
+#     def __init__(self):
+#         print("Calculator is ready!")
 
+#     def calculate(self, num1, num2, sign):
+#         self.num1 = num1
+#         self.num2=num2
+#         self.sign = sign
+#         if self.sign == "+":
+#             val = self.num1+self.num2
+#             return val
+#         elif self.sign == "-":
+#             val = self.num1-self.num2
+#             return val
+#         elif self.sign == "*":
+#             val = self.num1*self.num2
+#             return val
+#         elif self.sign == "/":
+#             val = self.num1/self.num2
+#             return val
 
-# Write your code here
-c1 = Calculator()
-print("==================")
-val = c1.calculate(10, 20, '+')
-print("Returned value:", val)
-c1.showCalculation()
-print("==================")
-val = c1.calculate(val, 10, '-')
-print("Returned value:", val)
-c1.showCalculation()
-print("==================")
-val = c1.calculate(val, 5, '*')
-print("Returned value:", val)
-c1.showCalculation()
-print("==================")
-val = c1.calculate(val, 16, '/')
-print("Returned value:", val)
-c1.showCalculation()
+#     def showCalculation(self):
+#         if self.sign == "+":
+#             print(f"{self.num1} + {self.num2} = {val}")
+#         elif self.sign == "-":
+#             print(f"{self.num1} - {self.num2} = {val}")
+#         elif self.sign == "*":
+#             print(f"{self.num1} * {self.num2} = {val}")
+#         elif self.sign == "/":
+#             print(f"{self.num1} / {self.num2} = {val}")
+# # Write your code here
+# c1 = Calculator()
+# print("==================")
+# val = c1.calculate(10, 20, '+')
+# print("Returned value:", val)
+# c1.showCalculation()
+# print("==================")
+# val = c1.calculate(val, 10, '-')
+# print("Returned value:", val)
+# c1.showCalculation()
+# print("==================")
+# val = c1.calculate(val, 5, '*')
+# print("Returned value:", val)
+# c1.showCalculation()
+# print("==================")
+# val = c1.calculate(val, 16, '/')
+# print("Returned value:", val)
+# c1.showCalculation()
 
 
 #################################  Task 7 ###########################################
@@ -220,6 +248,10 @@ c1.showCalculation()
 # s3.calculate_CGPA()
 # print("==========================")
 # s3.print_details()
+
+
+
+#####################################  Task 8  ###############################
 
 
 
