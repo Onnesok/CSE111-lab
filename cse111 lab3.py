@@ -309,7 +309,7 @@
 #         print("Language:", self.language)
 #         print("Experience:", self.year, "years")
 #     def addExp(self, year):
-#         print("Updating experience of Jon Snow")
+#         print("Updating experience of", self.name)
 #         self.year += year
 #         self.temp = 1
 
@@ -328,36 +328,36 @@
 
 ############################ Task 10 #################################
 
-class UberEats:
-    def __init__(self, name, number, place):
-        self.name = name
-        self.number = number
-        self.place = place
-        print(f"{self.name}, welcome to UberEats!")
-        self.res = 0
-        self.dict = {}
+# class UberEats:
+#     def __init__(self, name, number, place):
+#         self.name = name
+#         self.number = number
+#         self.place = place
+#         print(f"{self.name}, welcome to UberEats!")
+#         self.res = 0
+#         self.dict = {}
     
-    def add_items(self, order1, order2, num1, num2):
-        self.dict[order1] = num1
-        self.dict[order2] = num2
-        self.res = num1+num2
-    def print_order_detail(self):
-        print(f"User detail: Name: {self.name}, phone: {self.number}, Address: {self.place}")
-        print("Orders:", self.dict)
-        print("Total Paid Amount:", self.res)
+#     def add_items(self, order1, order2, num1, num2):
+#         self.dict[order1] = num1
+#         self.dict[order2] = num2
+#         self.res = num1+num2
+#     def print_order_detail(self):
+#         print(f"User detail: Name: {self.name}, phone: {self.number}, Address: {self.place}")
+#         print("Orders:", self.dict)
+#         return f"Total Paid Amount: {self.res}"
 
-# Write your code here
-order1 = UberEats("Shakib", "01719658xxx", "Mohakhali")
-print("=========================")
-order1.add_items("Burger", "Coca Cola", 220, 50)
-print("=========================")
-print(order1.print_order_detail())
-print("=========================")
-order2 = UberEats ("Siam", "01719659xxx", "Uttara")
-print("=========================")
-order2.add_items("Pineapple", "Dairy Milk", 80, 70)
-print("=========================")
-print(order2.print_order_detail())
+# # Write your code here
+# order1 = UberEats("Shakib", "01719658xxx", "Mohakhali")
+# print("=========================")
+# order1.add_items("Burger", "Coca Cola", 220, 50)
+# print("=========================")
+# print(order1.print_order_detail())
+# print("=========================")
+# order2 = UberEats ("Siam", "01719659xxx", "Uttara")
+# print("=========================")
+# order2.add_items("Pineapple", "Dairy Milk", 80, 70)
+# print("=========================")
+# print(order2.print_order_detail())
 
 
 ############################## Task 11   ##############################
