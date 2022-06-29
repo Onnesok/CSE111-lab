@@ -253,12 +253,135 @@
 
 #####################################  Task 8  ###############################
 
+# class Shinobi:
+#     def __init__(self, name, rank):
+#         self.name = name
+#         self.rank = rank
+#         self.salary = 0
+#         self.mission = 0
+#     def changeRank(self, rank):
+#         self.rank = rank
+#     def calSalary(self, mission):
+#         self.mission = mission
+#         if self.rank == "Genin":
+#             self.salary = mission*50
+#         elif self.rank == "Chunin":
+#             self.salary = mission*100
+#         else:
+#             self.salary = mission*500
+
+#     def printInfo(self):
+#         print("Name:", self.name)
+#         print("Rank:", self.rank)
+#         print("Number of missions:", self.mission)
+#         print("Salary:", self.salary)
 
 
 
+# # Write your code here.
+# naruto = Shinobi("Naruto", "Genin")
+# naruto.calSalary(5)
+# naruto.printInfo()
+# print('====================')
+# shikamaru = Shinobi('Shikamaru', "Genin")
+# shikamaru.printInfo()
+# shikamaru.changeRank("Chunin")
+# shikamaru.calSalary(10)
+# shikamaru.printInfo()
+# print('====================')
+# neiji = Shinobi("Neiji", "Jonin")
+# neiji.calSalary(5)
+# neiji.printInfo()
 
 
+##################################  Task 9  ############################
+
+# class Programmer:
+#     def __init__(self, name, language, year):
+#         self.name = name
+#         self.language = language
+#         self.year = year
+#         self.temp = 0
+#     def printDetails(self):
+#         if self.temp == 0:
+#             print("Horray! A new programmer is born")
+#         print("Name:", self.name)
+#         print("Language:", self.language)
+#         print("Experience:", self.year, "years")
+#     def addExp(self, year):
+#         print("Updating experience of Jon Snow")
+#         self.year += year
+#         self.temp = 1
+
+# # Write your code here.
+# p1 = Programmer("Ethen Hunt", "Java", 10)
+# p1.printDetails()
+# print('--------------------------')
+# p2 = Programmer("James Bond", "C++", 7)
+# p2.printDetails()
+# print('--------------------------')
+# p3 = Programmer("Jon Snow", "Python", 4)
+# p3.printDetails()
+# p3.addExp(5)
+# p3.printDetails() 
 
 
+############################ Task 10 #################################
+
+class UberEats:
+    def __init__(self, name, number, place):
+        self.name = name
+        self.number = number
+        self.place = place
+        print(f"{self.name}, welcome to UberEats!")
+        self.res = 0
+        self.dict = {}
+    
+    def add_items(self, order1, order2, num1, num2):
+        self.dict[order1] = num1
+        self.dict[order2] = num2
+        self.res = num1+num2
+    def print_order_detail(self):
+        print(f"User detail: Name: {self.name}, phone: {self.number}, Address: {self.place}")
+        print("Orders:", self.dict)
+        print("Total Paid Amount:", self.res)
+
+# Write your code here
+order1 = UberEats("Shakib", "01719658xxx", "Mohakhali")
+print("=========================")
+order1.add_items("Burger", "Coca Cola", 220, 50)
+print("=========================")
+print(order1.print_order_detail())
+print("=========================")
+order2 = UberEats ("Siam", "01719659xxx", "Uttara")
+print("=========================")
+order2.add_items("Pineapple", "Dairy Milk", 80, 70)
+print("=========================")
+print(order2.print_order_detail())
+
+
+############################## Task 11   ##############################
+
+# class Spotify:
+#     def __init__(self, playlist):
+#         self.playlist = playlist
+#         print("Welcome to Spotify!")
+
+#     def add_to_playlist(self, song_name):
+#         self.playlist.append(song_name)
+    
+#     def playing_number(self, song_num):
+#         if song_num <= len(self.playlist):
+#             return f'playing {song_num} number song for you\nsong name: {self.playlist[song_num-1]}'
+#         else:
+#             return f'{song_num} number song not found\nYour playlist has {len(self.playlist)} songs only'
+
+
+# user1 = Spotify(["See You Again", "Uptown Funk", "Hello"])
+# print("=========================")
+# print(user1.playing_number(4))
+# user1.add_to_playlist("Dusk Till Dawn")
+# print(user1.playing_number(3))
+# print(user1.playing_number(4))
 
 
