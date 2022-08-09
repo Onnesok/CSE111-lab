@@ -135,36 +135,36 @@
 # naruto.printDetails()
 
 ###########################  Task 6  ############################
-class Patient:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-    # def Patient(self, name, age):
-    #     self.name = name
-    #     self.age = age
-    def add_Symptom(self, *sym):
-        ls = []
-        for i in sym:
-            ls.append(i)
-        self.sym = ls
-    def printPatientDetail(self):
-        print(f"Name: {self.name}\nAge: {self.age}")
-        print("Symptoms:", end= " ")
-        print(*self.sym, sep=", ")
+# class Patient:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     # def Patient(self, name, age):
+#     #     self.name = name
+#     #     self.age = age
+#     def add_Symptom(self, *sym):
+#         ls = []
+#         for i in sym:
+#             ls.append(i)
+#         self.sym = ls
+#     def printPatientDetail(self):
+#         print(f"Name: {self.name}\nAge: {self.age}")
+#         print("Symptoms:", end= " ")
+#         print(*self.sym, sep=", ")
 
-# Write your code here.
-p1 = Patient("Thomas", 23)
-p1.add_Symptom("Headache")
-p2 = Patient("Carol", 20)
-p2.add_Symptom("Vomiting", "Coughing")
-p3 = Patient("Mike", 25)
-p3.add_Symptom("Fever", "Headache", "Coughing")
-print("=========================")
-p1.printPatientDetail()
-print("=========================")
-p2.printPatientDetail()
-print("=========================")
-p3.printPatientDetail()
+# # Write your code here.
+# p1 = Patient("Thomas", 23)
+# p1.add_Symptom("Headache")
+# p2 = Patient("Carol", 20)
+# p2.add_Symptom("Vomiting", "Coughing")
+# p3 = Patient("Mike", 25)
+# p3.add_Symptom("Fever", "Headache", "Coughing")
+# print("=========================")
+# p1.printPatientDetail()
+# print("=========================")
+# p2.printPatientDetail()
+# print("=========================")
+# p3.printPatientDetail()
 
 
 ###########################  Task 7 ##################################
