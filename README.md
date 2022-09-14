@@ -1,16 +1,16 @@
-# cse110_Lab
+# cse111_Lab_assignment
 
 [![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Compatibility](https://img.shields.io/badge/python-3-brightgreen.svg)](cse110)
+[![Compatibility](https://img.shields.io/badge/python-3-brightgreen.svg)](cse111)
 [![Modified](https://img.shields.io/badge/Coverage-full-orange)](cse110)
 
 
-```Cse110 (Introduction to computer programming) basic things lab assignments all codes```
+```Cse111 (Programming language || ) basic things lab assignments all codes of OOP ```
 
 ## clone / Download
 
 ```bash
-git clne https://github.com/Onnesok/cse110_Lab
+git clne https://github.com/Onnesok/CSE111-lab
 
 ```
 
